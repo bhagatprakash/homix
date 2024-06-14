@@ -16,6 +16,9 @@ module.exports = {
       colors: {
         primary: "#7065f0",
       },
+      colorss: {
+        footer: "#828282",
+      },
     },
   },
   safelist: ["container"],
