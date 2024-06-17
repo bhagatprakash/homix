@@ -12,7 +12,7 @@ function Header() {
   }, []);
   return (
     <>
-      <heade>
+      <header>
         <nav className="flex flex-wrap items-center justify-between my-5  lg:px-20 ">
           <div>
             <img src={HeaderImage} className="h-[40px]" alt="header-image" />
@@ -36,19 +36,19 @@ function Header() {
           <div className="toggle w-full lg:w-auto lg:flex row-gap-25 text-bold mt-5 md:mt-0 md:border-none hidden">
             <a href="#" className="block   text-[18px]  px-3 py-3  text-center">
               Home
-              <i class="fa-solid fa-angle-down text-blue-700 font-semibold mx-2"></i>
+              <i className="fa-solid fa-angle-down text-blue-700 font-semibold mx-2"></i>
             </a>
             <a href="#" className="block   px-3 py-3 text-[17px]  text-center">
-              Properties<i class="fa-solid fa-angle-down mx-2"></i>
+              Properties<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
             <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
-              Blogs<i class="fa-solid fa-angle-down mx-2"></i>
+              Blogs<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
             <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
               About
             </a>
             <a href="#" className="block  px-2 lg:px-3 py-3 lg:text-[17px]  ">
-              Pages<i class="fa-solid fa-angle-down mx-2"></i>
+              Pages<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
           </div>
           <a
@@ -58,7 +58,7 @@ function Header() {
             Contact Us
           </a>
         </nav>
-      </heade>
+      </header>
     </>
   );
 }

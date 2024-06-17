@@ -5,6 +5,9 @@ import Card from "./card";
 import Properties from "./properties";
 import Accordion from "./accordion";
 import Getintuch from "./get_in_tuch";
+import Footer from "../../components/Footer";
+import CarouselSection from "./carosal";
+import CardCarosal from "./cardCarosal";
 
 function Index() {
   return (
@@ -21,6 +24,13 @@ function Index() {
       <Accordion />
       {/* Getintuch */}
       <Getintuch />
+
+      <CarouselSection />
+
+      <CardCarosal />
+
+      {/* footer  */}
+      <Footer />
     </>
   );
 }

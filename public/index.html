@@ -24,6 +24,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- owl carosal  -->
+
     <title>React App</title>
   </head>
   <body>
@@ -39,5 +41,33 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.querySelector(".carousel");
+        const slides = document.querySelectorAll(".carousel > div");
+        const totalSlides = slides.length;
+        let index = 0;
+
+        document.getElementById("next").addEventListener("click", function () {
+          if (index < totalSlides - 1) {
+            index++;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+          } else {
+            index = 0;
+            carousel.style.transform = `translateX(0)`;
+          }
+        });
+
+        document.getElementById("prev").addEventListener("click", function () {
+          if (index > 0) {
+            index--;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+          } else {
+            index = totalSlides - 1;
+            carousel.style.transform = `translateX(-${index * 100}%)`;
+          }
+        });
+      });
+    </script> -->
   </body>
 </html>
