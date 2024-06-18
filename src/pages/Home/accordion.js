@@ -51,10 +51,10 @@ function Accordion() {
   };
   return (
     <>
-      <div className="max-w-[1320px] mx-auto my-10 ">
+      <div className="max-w-[1320px] mx-auto my-10 p-[10px]">
         <div className="bg-accent/20">
           <div>
-            <h1 className="text-[45px] font-bold my-5 ">
+            <h1 className="lg:text-[45px] text-[35px] font-bold my-5 ">
               Frequently asked questions
             </h1>
             <h2 className="text-[18px] text-gray-500 font-semibold  ">
@@ -64,7 +64,7 @@ function Accordion() {
               Sit nibh pretium nunc mauris sed adipiscing.
             </span>
           </div>
-          <div className="w-full  py-20 flex justify-center">
+          <div className="w-full  lg:py-20 flex justify-center">
             <div className="w-[1320px] rounded-lg ">
               {frequentlayAskQuestion.map((item, i) => (
                 <div

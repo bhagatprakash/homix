@@ -7,7 +7,9 @@ import Accordion from "./accordion";
 import Getintuch from "./get_in_tuch";
 import Footer from "../../components/Footer";
 import CarouselSection from "./carosal";
-import CardCarosal from "./cardCarosal";
+import Carousel from "./cardCarosal";
+
+// import CardCarosal from "./cardCarosal";
 
 function Index() {
   return (
@@ -20,15 +22,14 @@ function Index() {
       <Card />
       {/* Properties */}
       <Properties />
+
+      <CarouselSection />
+
+      <Carousel />
       {/* Accordion  */}
       <Accordion />
       {/* Getintuch */}
       <Getintuch />
-
-      <CarouselSection />
-
-      <CardCarosal />
-
       {/* footer  */}
       <Footer />
     </>

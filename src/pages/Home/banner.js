@@ -7,17 +7,17 @@ function Banner() {
       style={{ objectFit: "cover" }}
     >
       <div className="text-center container mx-auto my-auto px-4">
-        <h1 className="md:text-[60px] text-[37px] font-semibold">
+        <h1 className="md:text-[60px] text-[37px] font-bold">
           The best place to find
         </h1>
-        <h1 className="md:text-[60px] text-[37px] text-primary font-semibold">
+        <h1 className="md:text-[60px] text-[37px] text-primary font-bold">
           your dream house
         </h1>
         <br />
-        <p className="text-[18px] md:text-[21px] font-semibold text-gray-500">
+        <p className="text-[18px] md:text-[21px] font-semibold text-gray-600">
           Lorem ipsum dolor sit amet consectetur adipiscing elit
         </p>
-        <p className="text-[18px] md:text-[21px] font-semibold text-gray-500 py-2">
+        <p className="text-[18px] md:text-[21px] font-semibold text-gray-600 py-2">
           current one with ease.
         </p>
 
@@ -27,7 +27,7 @@ function Banner() {
             className="px-4 py-3 md:py-5 rounded-lg w-full md:w-[500px] lg:w-[700px] mb-4 md:mb-0 md:mr-4"
             placeholder="Search for city, neighborhood, agent, address..."
           />
-          <button className="px-4 py-3 md:py-5 w-full md:w-[150px] rounded-lg bg-primary text-white font-semibold hover:bg-blue-600">
+          <button className="px-1 py-3 md:py-5 w-full md:w-[150px] rounded-lg bg-primary text-white font-semibold hover:bg-blue-600">
             Search
           </button>
         </div>

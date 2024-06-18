@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../Assect/Image/bestplace.webp";
+import imageCarton from "../../Assect/Image/carton icon.webp";
 
 function Getintuch() {
   return (
@@ -7,7 +8,7 @@ function Getintuch() {
       <div className="bg-primary p-10 my-10">
         <div className="max-w-[1320px] mx-auto my-10">
           <div className="bg-accent/20">
-            <div className="max-w-[1320px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 bg-white rounded-xl p-5">
+            <div className="max-w-[1320px] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 bg-white rounded-xl p-5">
               <div className="text-left w-full sm:w-auto my-5 lg:my-1 flex flex-col items-center sm:items-start justify-center p-5">
                 <p className="text-[24px] sm:text-[40px] font-bold text-left">
                   The best place to discover amazing properties at great prices.
@@ -32,22 +33,24 @@ function Getintuch() {
                   className="w-full h-full object-cover rounded-lg"
                   style={{ objectFit: "cover" }}
                 />
-                <div className="absolute bottom-[-100px] left-1/2 transform -translate-x-1/2 m-5 bg-white p-5 rounded-lg shadow-lg w-full sm:w-[450px]">
-                  <div className="flex flex-col sm:flex-row justify-between">
-                    <div className="my-5">
-                      <h1 className="font-bold text-[18px] sm:text-[20px]">
-                        Seaside Serenity
-                      </h1>
-                      <p className="text-[14px] sm:text-[18px] text-gray-500 my-2">
-                        San Francisco
-                      </p>
+                <button className="absolute top-5 right-5 px-4 py-3 md:py-2 font-semibold rounded-lg bg-primary text-white hover:bg-black">
+                  Next
+                </button>
+                <div className="absolute bottom-[-100px] left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-lg w-full sm:w-[400px]">
+                  <div className="flex  sm:flex-row justify-between items-center sm:items-start">
+                    <div>
+                      <img
+                        src={imageCarton}
+                        alt="image"
+                        className="h-[150px] w-[150px] object-cover"
+                      />
                     </div>
-                    <div className="my-5">
+                    <div className="my-5 text-center sm:text-left sm:ml-5">
                       <h1 className="text-[20px] sm:text-[25px] text-primary font-bold">
-                        $90,000
+                        Congratulations!
                       </h1>
                       <p className="text-[14px] sm:text-[18px] text-gray-500 font-semibold my-2">
-                        / per month
+                        You have rented an apartment. Thank you for choosing us.
                       </p>
                     </div>
                   </div>

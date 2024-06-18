@@ -34,20 +34,35 @@ function Header() {
             </button>
           </div>
           <div className="toggle w-full lg:w-auto lg:flex row-gap-25 text-bold mt-5 md:mt-0 md:border-none hidden">
-            <a href="#" className="block   text-[18px]  px-3 py-3  text-center">
+            <a
+              href="#"
+              className="block   text-[18px] font-semibold  px-3 py-3  text-center"
+            >
               Home
               <i className="fa-solid fa-angle-down text-blue-700 font-semibold mx-2"></i>
             </a>
-            <a href="#" className="block   px-3 py-3 text-[17px]  text-center">
+            <a
+              href="#"
+              className="block   px-3 py-3 text-[17px]  text-center font-semibold"
+            >
               Properties<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
+            <a
+              href="#"
+              className="block  px-3 py-3 text-[17px]   text-center font-semibold "
+            >
               Blogs<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
-            <a href="#" className="block  px-3 py-3 text-[17px]   text-center ">
+            <a
+              href="#"
+              className="block  px-3 py-3 text-[17px]   text-center font-semibold "
+            >
               About
             </a>
-            <a href="#" className="block  px-2 lg:px-3 py-3 lg:text-[17px]  ">
+            <a
+              href="#"
+              className="block  px-2 lg:px-3 py-3 lg:text-[17px]  font-semibold "
+            >
               Pages<i className="fa-solid fa-angle-down mx-2"></i>
             </a>
           </div>

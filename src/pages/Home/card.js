@@ -47,20 +47,20 @@ function TopListing() {
                 <hr className="w-[300px] mx-3" />
                 <div className="flex justify-center my-5 ">
                   <span className="inline-block py-1 text-[14px] p-5 text-gray-500 mb-2 text-left">
-                    <spn className=" bg-gray-100 text-primary  font-semibold  p-3 rounded-3xl">
+                    <span className=" bg-gray-100 text-primary  font-semibold  p-3 rounded-3xl">
                       {card.squre}
-                    </spn>
+                    </span>
                   </span>
                   <span className="inline-block  py-1 text-[14px] p-5 text-gray-500 mb-2 text-left">
-                    <spn className=" bg-gray-100 text-primary  font-semibold  p-3 rounded-3xl">
+                    <span className=" bg-gray-100 text-primary  font-semibold  p-3 rounded-3xl">
                       {card.bedrooms}
-                    </spn>
+                    </span>
                   </span>
                   <span className="inline-block py-1 text-[14px] p-5 text-gray-500 mb-2 text-left">
-                    <spn className=" bg-gray-100 text-primary font-semibold p-3 rounded-3xl">
+                    <span className=" bg-gray-100 text-primary font-semibold p-3 rounded-3xl">
                       {" "}
                       {card.bathrooms}
-                    </spn>
+                    </span>
                   </span>
                 </div>
               </div>
