@@ -161,7 +161,7 @@ const CarouselSection = () => {
     },
     {
       image: profileImage1,
-      text: "As a first-time homebuyer, I was overwhelmed, but TNC Resida guided me every step of the way. TheirResida guided me every commitment to client satisfaction is truly exceptional.",
+      text: "As a first-time homebuyer, I was overwhelmed, but TNC  of the wayhome-buying journey TheirResida guided me every commitment to client satisfaction is truly exceptional.",
       author: "Leslie Alexander",
       position: "CEO at Homeland",
       rating: 5,
@@ -184,18 +184,17 @@ const CarouselSection = () => {
 
   return (
     <div className="bg-primary">
-      <div className="max-w-[1320px] mx-auto  py-8 ">
+      <div className="max-w-[1320px] mx-auto py-8 px-4 sm:px-6 lg:px-8">
         <div>
-          <h1 className="text-5xl mx-5 my-5 font-bold text-left text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl mx-5 my-10 font-bold text-left text-white ">
             What our clients say
           </h1>
         </div>
         <Slider {...settings}>
           {testimonials.map((card) => (
-            <div key={card.id} className="p-4">
-              <div className="bg-white rounded-lg shadow-md p-5">
+            <div key={card.id} className="px-2">
+              <div className="bg-white rounded-lg shadow-md gap-10 p-5">
                 <div className="flex text-left mb-4">
-                  {" "}
                   {[...Array(card.rating)].map((_, i) => (
                     <svg
                       key={i}
@@ -207,16 +206,22 @@ const CarouselSection = () => {
                     </svg>
                   ))}
                 </div>
-                <h2 className="text-[18px] text-left  mb-2">{card.text}</h2>
-                <div className="flex my-5 ">
+                <h2 className="text-[16px] sm:text-[18px] text-left mb-2">
+                  {card.text}
+                </h2>
+                <div className="flex my-5">
                   <div className="">
-                    <img src={card.image} alt="img" className="h-[50px] " />
+                    <img
+                      src={card.image}
+                      alt="img"
+                      className="h-[40px] sm:h-[50px]"
+                    />
                   </div>
                   <div className="mx-5">
-                    <p className="text-left text-[18px] font-semibold">
+                    <p className="text-left text-[16px] sm:text-[18px] font-semibold">
                       {card.author}
                     </p>
-                    <p className="text-left text-[15px] text-gray-400 font-semibold">
+                    <p className="text-left text-[14px] sm:text-[15px] text-gray-400 font-semibold">
                       {card.position}
                     </p>
                   </div>
